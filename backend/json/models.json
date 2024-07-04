@@ -1,0 +1,167 @@
+{
+    "models": [
+        {
+            "hyperscalar_id": 1,
+            "model_info": [
+                {
+                    "id": 1,
+                    "name": "Claude 3.5 Sonnet",
+                    "input": "0.003",
+                    "output": "0.015"
+    
+                },
+                {
+                    "id": 2,
+                    "name": "Claude 3 Opus",
+                    "input": "0.015",
+                    "output": "0.075"
+    
+                },
+                {
+                    "id": 3,
+                    "name": "Claude 3 Haiku",
+                    "input": "0.00025",
+                    "output": "0.00125"
+    
+                },
+                {
+                    "id": 4,
+                    "name": "Claude 3 Sonnet",
+                    "input": "0.003",
+                    "output": "0.015"
+    
+                },
+                {
+                    "id": 5,
+                    "name": "Claude 2.1",
+                    "input": "0.008",
+                    "output": "0.024"
+    
+                },
+               {
+                    "id": 6,
+                    "name": "Claude Instant",
+                    "input": "0.0008",
+                    "output": "0.0024"
+    
+                }
+
+            ]
+        },
+        {
+            "hyperscalar_id": 2,
+            "model_names": [
+                {
+                    "id": 1,
+                    "name": "GPT-4o Global Deployment",
+                    "context": "128k",
+                    "input": "0.005",
+                    "output": "0.015"
+    
+                },
+                {
+                    "id": 2,
+                    "name": "GPT-4o Regional API",
+                    "context": "128k",
+                    "input": "0.005",
+                    "output": "0.015"
+    
+                },
+                {
+                    "id": 3,
+                    "name": "GPT-3.5-Turbo-0125",
+                    "context": "16k",
+                    "input": "0.0005",
+                    "output": "0.0015"
+    
+                },
+                {
+                    "id": 4,
+                    "name": "GPT-3.5-Turbo-Instruct",
+                    "context": "4k",
+                    "input": "0.0015",
+                    "output": "0.002"
+    
+                },
+                {
+                    "id": 5,
+                    "name": "GPT-4",
+                    "context": "8k",
+                    "input": "0.03",
+                    "output": "0.06"
+    
+                },
+               {
+                    "id": 6,
+                    "name": "GPT-4",
+                    "context": "32k",
+                    "input": "0.06",
+                    "output": "0.12"
+                }
+            ]
+        },
+        {
+            "hyperscalar_id": 3,
+            "model_names": [
+                {
+                    "id": 1,
+                    "name": "Claude 3.5 Sonnet",
+                    "input": "0.003",
+                    "output": "0.015"
+    
+                },
+                {
+                    "id": 2,
+                    "name": "Claude 3 Opus",
+                    "input": "0.015",
+                    "output": "0.075"
+    
+                },
+                {
+                    "id": 3,
+                    "name": "Claude 3 Haiku",
+                    "input": "0.00025",
+                    "output": "0.00125"
+                },
+                {
+                    "id": 4,
+                    "name": "Claude 3 Sonnet",
+                    "input": "0.003",
+                    "output": "0.015"
+                }
+            ]
+        },
+        {
+            "hyperscalar_id": 4,
+            "model_names": [
+                {
+                    "id": 1,
+                    "name": "granite-20b-multilingual",
+                    "context": "8k",
+                    "input": "0.0006",
+                    "output": "0.0006"
+                },
+                {
+                    "id": 2,
+                    "name": "granite-13-b-chat",
+                    "context": "8k",
+                    "input": "0.0006",
+                    "output": "0.0006"
+                },
+                {
+                    "id": 3,
+                    "name": "llama-3-8b-instruct",
+                    "context": "8k",
+                    "input": "0.0006",
+                    "output": "0.0006"
+                },
+                {
+                    "id": 4,
+                    "name": "llama-3-70b-instruct",
+                    "input": "0.0018",
+                    "output": "0.0018"
+                }
+            ]
+        }
+    ]
+}

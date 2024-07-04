@@ -1,0 +1,21 @@
+{
+    "hyperscalars": [
+        {
+            "id": 1,
+            "name": "Amazon BedRock Claude model"
+        },
+        {
+            "id": 2,
+            "name": "Azure OpenAI model"
+        },
+        {
+            "id": 3,
+            "name": "Google VertexAI"
+        },
+        {
+            "id": 4,
+            "name": "IBM Cloud watsonx"
+        }
+
+    ]
+}
