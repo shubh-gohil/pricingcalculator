@@ -50,7 +50,7 @@
         },
         {
             "hyperscalar_id": 2,
-            "model_names": [
+            "model_info": [
                 {
                     "id": 1,
                     "name": "GPT-4o Global Deployment",
@@ -102,7 +102,7 @@
         },
         {
             "hyperscalar_id": 3,
-            "model_names": [
+            "model_info": [
                 {
                     "id": 1,
                     "name": "Claude 3.5 Sonnet",
@@ -133,7 +133,7 @@
         },
         {
             "hyperscalar_id": 4,
-            "model_names": [
+            "model_info": [
                 {
                     "id": 1,
                     "name": "granite-20b-multilingual",

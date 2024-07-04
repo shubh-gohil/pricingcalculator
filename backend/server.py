@@ -10,7 +10,9 @@ app = Flask(__name__)
 
 @app.route("/hyperscalars")
 def get_hyperscalars():
-    return read_json("hyperscalars.json")
+    data = read_json("hyperscalars.json")
+    print(data)
+    return data["hyperscalars"]
 
 
 # @app.route("/models/<int:hyperscalar_id>")
@@ -38,7 +40,7 @@ def get_all_models_and_info(hyperscalar_id):
 
     for model in data["models"]:
         if hyperscalar_id == model["hyperscalar_id"]:
-            model_info = model["model_names"]
+            model_info = model["model_info"]
             return model_info
 
 
@@ -48,7 +50,7 @@ def get_model_info(model_id):
 
     for model in data["models"]:
         if model_id == model["model_id"]:
-            model_info = model["model_names"]
+            model_info = model["model_info"]
 
 
 if __name__ == "__main__":
