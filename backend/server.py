@@ -4,12 +4,11 @@ from utils import read_json
 
 app = Flask(__name__)
 
-# @app.route("/")
-# def sample():
-#     return {"1": "Honey", "2": "Bunny"}
 
 @app.route("/hyperscalars")
 def get_hyperscalars():
+    """Get list of all available GenAI model providers"""
+
     data = read_json("hyperscalars.json")
     print(data)
     return data["hyperscalars"]
@@ -36,6 +35,8 @@ def get_hyperscalars():
 
 @app.route("/models/<int:hyperscalar_id>")
 def get_all_models_and_info(hyperscalar_id):
+    """Get list of all models available of a particular provider"""
+
     data = read_json("models.json")
 
     for model in data["models"]:
@@ -46,11 +47,22 @@ def get_all_models_and_info(hyperscalar_id):
 
 @app.route("/model_info/<int:model_id>")
 def get_model_info(model_id):
+    """Get information about a particular model"""
+
     data = read_json("models.json")
 
     for model in data["models"]:
         if model_id == model["model_id"]:
             model_info = model["model_info"]
+
+
+@app.route("/cost")
+def get_infra_cost():
+    """Get the infrastructure cost of all the hyperscalars"""
+    
+    data = read_json("infra_cost.json")
+
+    return data["hyperscalars"]
 
 
 if __name__ == "__main__":

@@ -2,19 +2,23 @@
     "hyperscalars": [
         {
             "id": 1,
-            "name": "Amazon BedRock Claude model"
+            "name": "Amazon BedRock Claude model",
+            "provider_name": "AWS"
         },
         {
             "id": 2,
-            "name": "Azure OpenAI model"
+            "name": "Azure OpenAI model",
+            "provider_name": "Azure"
         },
         {
             "id": 3,
-            "name": "Google VertexAI"
+            "name": "Google VertexAI",
+            "provider_name": "GCP"
         },
         {
             "id": 4,
-            "name": "IBM Cloud watsonx"
+            "name": "IBM Cloud watsonx",
+            "provider_name": "IBM"
         }
 
     ]
